@@ -1,13 +1,10 @@
 import { BrowserRouter as Switch, Route } from "react-router-dom";
-import {FooterArea } from "./components/footer";
 
 import { Agenda } from "./pages/Agenda";
-
 import { Aniversario } from "./pages/Aniversario";
 import { Cadastro } from "./pages/Cadastro";
 import { Contato } from "./pages/Contato";
 import { Doar } from "./pages/Doar";
-import { Home } from "./pages/Home";
 import { Marketplace } from "./pages/Marketplace";
 import { Noticias } from "./pages/Noticias";
 import { Podcast } from "./pages/Podcast";
@@ -36,7 +33,6 @@ export function App() {
         <Route path="/cadastro" component={Cadastro} />
       </Switch>
       <GlobalStyle />
-      <FooterArea/>
     </>
   );
 }
