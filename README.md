@@ -5,19 +5,9 @@
 <h1 align="center">Ong LGBT+ | Grupo CPB</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
+  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
-
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
-
-  <img alt="License" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
-
-  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
-
-  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
 </p>
 
 ## :rocket: Technologies ##
