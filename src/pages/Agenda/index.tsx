@@ -10,7 +10,7 @@ export function Agenda() {
     <Container>
       <Header pageName="agenda" />
       <BannerNewsletter pageName="agenda" />
-      <FooterArea />
+      <FooterArea pageName="agenda" />
     </Container>
   );
 }

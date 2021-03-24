@@ -9,7 +9,7 @@ export function Marketplace() {
     <Container>
       <Header pageName="marketplace" />
       <BannerNewsletter pageName="marketplace" />
-      <FooterArea />
+      <FooterArea pageName="marketplace" />
     </Container>
   );
 }

@@ -9,7 +9,7 @@ export function Radio() {
     <Container>
       <Header pageName="radio" />
       <BannerNewsletter pageName="radio" />
-      <FooterArea />
+      <FooterArea pageName="radio" />
     </Container>
   );
 }

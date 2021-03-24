@@ -34,6 +34,7 @@ export const Content = styled.div`
 export const Menu = styled.nav`
   width: 48rem;
   ul {
+    margin-left: 1rem;
     display: flex;
     justify-content: space-around;
     li {

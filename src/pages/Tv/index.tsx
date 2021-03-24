@@ -9,7 +9,7 @@ export function Tv() {
     <Container>
       <Header pageName="tv" />
       <BannerNewsletter pageName="tv" />
-      <FooterArea />
+      <FooterArea pageName="tv" />
     </Container>
   );
 }

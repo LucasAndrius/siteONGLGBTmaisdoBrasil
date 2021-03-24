@@ -9,7 +9,7 @@ export function Podcast() {
     <Container>
       <Header pageName="podcast" />
       <BannerNewsletter pageName="podcast" />
-      <FooterArea />
+      <FooterArea pageName="podcast" />
     </Container>
   );
 }
