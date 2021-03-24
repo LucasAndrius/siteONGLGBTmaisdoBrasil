@@ -5,9 +5,8 @@
 <h1 align="center">Ong LGBT+ | Grupo CPB</h1>
 
 <p align="center">
-  <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=15C3D6&labelColor=000000" alt="PRs welcome!" />
-
   <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
+  <img alt="Language" src="https://img.shields.io/static/v1?label=language&message=Typescript&color=15C3D6&labelColor=000000">
 </p>
 
 ## :rocket: Technologies ##
