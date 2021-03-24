@@ -1,5 +1,13 @@
+import { BannerNewsletter } from "../../components/BannerNewsletter";
+import { Header } from "../../components/Header";
+
 import { Container } from "./styles";
 
 export function Radio() {
-  return <Container>Radio</Container>;
+  return (
+    <Container>
+      <Header pageName="radio" />
+      <BannerNewsletter pageName="radio" />
+    </Container>
+  );
 }

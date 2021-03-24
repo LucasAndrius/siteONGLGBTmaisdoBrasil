@@ -82,6 +82,11 @@ export const GlobalStyle = createGlobalStyle`
     font-size: 2rem;
   }
 
+  a {
+    text-decoration: none;
+    color: var(--gray-80);
+  }
+
   button { 
     cursor: pointer;
     font-size: 1rem;
