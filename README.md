@@ -5,19 +5,19 @@
 <h1 align="center">Ong LGBT+ | Grupo CPB</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/GrupoCPB/siteonglgbt?color=33CC95">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbt?color=33CC95">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GrupoCPB/siteonglgbt?color=33CC95">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
 
-  <img alt="License" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbt?color=33CC95">
+  <img alt="License" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/siteonglgbt?color=33CC95" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbt?color=33CC95" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
 
-  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/siteonglgbt?color=33CC95" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/siteonglgbtmaisdobrasil?color=33CC95" />
 </p>
 
 ## :rocket: Technologies ##
@@ -28,7 +28,6 @@
 - [Styled-Components](https://styled-components.com/)
 - [React-Router-Dom](https://reactrouter.com)
 - [MirageJS](https://miragejs.com/)
-- [Cypress](https://www.cypress.io/)
 - [CSS3](https://www.w3schools.com/css/)
 
 ## :checkered_flag: Starting ##
