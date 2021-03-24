@@ -35,7 +35,7 @@
 
 ```bash
 # Clone this project
-$ git clone https://github.com/JulianePires/lacarteira
+$ git clone https://github.com/GrupoCPB/siteonglgbt
 
 # Access
 $ cd siteonglgbt
@@ -75,3 +75,4 @@ Note que o template do typescript foi utilizado, pois iremos utilizá-lo na ling
 
 --> A escolha da API fake vem da necessidade de armazenar dados da aplicação sem a necessidade de ter um backend por trás e não utilizarmos dados estáticos até que eles sejam construídos.
 --> Por não rodar de maneira simultânea à nossa aplicação, o JSON Server não atenderia as nossas necessidades, então foi feita a escolha do MirageJS para criação dessa API Fake.
+--> Outra vantagem do MirageJS é a possibilidade de desenvolvimento de testes, que deixa tudo sucinto em uma única ferramenta.
