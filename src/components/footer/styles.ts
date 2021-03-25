@@ -76,11 +76,7 @@ export const Nav = styled.nav`
 
 export const LinkReset = styled.a`
   text-decoration: none;
-
-  .disabled {
-    opacity: 0.3;
-  }
-
+  
   .message {
     font-size: 0.9rem;
   }
