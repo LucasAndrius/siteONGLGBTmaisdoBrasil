@@ -1,12 +1,11 @@
 import { Container } from "./styles";
 
-
-
-interface NewsBox {
+interface NewsBoxProps {
   pageName: string;
 }
 
-export function NewsBox(props:NewsBox) {
+export function NewsBox(props:NewsBoxProps) {
+  
   return (
   <Container className={props.pageName}>
       <article>

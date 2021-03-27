@@ -6,12 +6,12 @@ import tv from "../../assets/logo-tv.svg";
 import mktplace from "../../assets/logo-marketplace.svg";
 
 
-interface Pages {
+interface PagesProps {
   pageName: string;
 }
 
 
-export function Pages(props: Pages) {
+export function Pages(props: PagesProps) {
   return (
     <Container className={props.pageName}>
         <div>
