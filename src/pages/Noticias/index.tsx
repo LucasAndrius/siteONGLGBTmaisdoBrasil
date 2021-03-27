@@ -8,16 +8,18 @@ import { AdsenseBanner } from "../../components/AdsenseBanner";
 import { CarouselNews } from "../../components/CarouselNews";
 import { NewsBox } from "../../components/NewsBox";
 import { SectionNewsletter } from "../../components/SectionNewsletter";
+import { Pages } from "../../components/Pages";
 
 export function Noticias() {
   return (
     <Container>
       <Header pageName="noticias" />
-      <BannerNewsletter pageName="noticias" />
+      <BannerNewsletter pageName="noticias"/>
       <HeadlineNews />
       <AdsenseBanner />
       <CarouselNews />
-      <NewsBox />
+      <NewsBox pageName="noticias" />
+      <Pages pageName="noticias"/>
       <SectionNewsletter />
       <FooterArea pageName="noticias" />
     </Container>
