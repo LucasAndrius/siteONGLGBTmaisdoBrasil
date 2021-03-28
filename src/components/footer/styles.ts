@@ -41,7 +41,14 @@ export const Footer = styled.footer`
     justify-content: center;
 
     img {
+      width: 5.5rem;
+      height: 5.5rem;
       padding: 0 1.15rem;
+      transition: filter 0.2s;
+
+      &:hover {
+        filter: brightness(1.2);
+      }
     }
   }
 `;
@@ -66,8 +73,38 @@ export const Nav = styled.nav`
       li {
         list-style: none;
         padding: 0 2.37rem;
-        a::hover {
-          color: var(--home-main);
+        transition: color 0.2s;
+        a {
+          &.red {
+            &:hover {
+              color: var(--tv-main);
+            }
+          }
+          &.orange {
+            &:hover {
+              color: var(--loja-main);
+            }
+          }
+          &.yellow {
+            &:hover {
+              color: var(--home-main);
+            }
+          }
+          &.green {
+            &:hover {
+              color: var(--marketplace-main);
+            }
+          }
+          &.blue {
+            &:hover {
+              color: var(--radio-main);
+            }
+          }
+          &.purple {
+            &:hover {
+              color: var(--podcast-main);
+            }
+          }
         }
       }
     }
@@ -76,8 +113,15 @@ export const Nav = styled.nav`
 
 export const LinkReset = styled.a`
   text-decoration: none;
-  
+
+  button {
+    background: none;
+    border: none;
+  }
+
   .message {
-    font-size: 0.9rem;
+    font-size: 1.2rem;
+    color: #7573ff;
+    font-weight: 600;
   }
 `;

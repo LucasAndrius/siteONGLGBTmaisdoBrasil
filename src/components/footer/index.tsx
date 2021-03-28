@@ -53,22 +53,34 @@ export function FooterArea(props: FooterProps) {
         <nav>
           <ul>
             <li>
-              <a href="/sobre">Sobre nós</a>
+              <a className="red" href="/sobre">
+                Sobre nós
+              </a>
             </li>
             <li>
-              <a href="/doar">Doar</a>
+              <a className="orange" href="/doar">
+                Doar
+              </a>
             </li>
             <li>
-              <a href="/voluntarie">Seja um voluntárie</a>
+              <a className="yellow" href="/voluntarie">
+                Seja um voluntárie
+              </a>
             </li>
             <li>
-              <a href="/contato">Fale Conosco</a>
+              <a className="green" href="/contato">
+                Fale Conosco
+              </a>
             </li>
             <li>
-              <a href="/aniversario">Aniversáro Solidário</a>
+              <a className="blue" href="/aniversario">
+                Aniversário Solidário
+              </a>
             </li>
             <li>
-              <a href="/cadastro">Cadastra-se</a>
+              <a className="purple" href="/cadastro">
+                Cadastra-se
+              </a>
             </li>
           </ul>
         </nav>
