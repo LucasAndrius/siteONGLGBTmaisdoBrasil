@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { NewsContext } from "../../context/NewsContext";
 import { Container } from "./styles";
 
 interface NewsBoxProps {
@@ -5,8 +7,20 @@ interface NewsBoxProps {
 }
 
 export function NewsBox(props: NewsBoxProps) {
+  const { newsInformations } = useContext(NewsContext);
   return (
     <Container className={props.pageName}>
+      {newsInformations.map((news) => (
+        <article>
+          <a href={news.path}>
+            <img src={news.cover.url} alt={news.cover.description} />
+          </a>
+          <header>
+            <a href={news.path}>{news.type}</a>
+            <p>{news.abstract}</p>
+          </header>
+        </article>
+      ))}
       <article>
         <a href="/noticias/noticia-1">
           <img

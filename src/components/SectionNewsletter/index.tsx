@@ -3,7 +3,7 @@ import podcast from "../../assets/logo-podcast.svg";
 import tv from "../../assets/logo-tv.svg";
 import mktplace from "../../assets/logo-marketplace.svg";
 
-import { Container, Logos } from "./styles";
+import { Container, Label, Link, Logos } from "./styles";
 
 export function SectionNewsletter() {
   return (
@@ -22,6 +22,8 @@ export function SectionNewsletter() {
           <img src={mktplace} alt="LGBT MktPlace" />
         </a>
       </Logos>
+      <Label>Deseja recebar mais notícias sobre a comunidade LGBT+ ?</Label>
+      <Link>Assine a nossa newsletter</Link>
     </Container>
   );
 }

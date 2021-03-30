@@ -1,5 +1,23 @@
-import { Container } from "./styles";
+import { Container, HeadlineGroup, MainHeadline } from "./styles";
 
 export function HeadlineNews() {
-  return <Container>Headline</Container>;
+  return (
+    <Container>
+      {/* <MainHeadline></MainHeadline>
+      <HeadlineGroup>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="" />
+          <figcaption></figcaption>
+        </figure>
+      </HeadlineGroup> */}
+    </Container>
+  );
 }

@@ -7,7 +7,11 @@ import { createServer } from "miragejs";
 import { App } from "./App";
 
 createServer({
-  routes() {},
+  routes() {
+    // destaques: {
+
+    // }
+  },
 });
 
 ReactDOM.render(

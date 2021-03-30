@@ -5,7 +5,7 @@ export const Container = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-  margin: 0 1rem;
+  margin: 0;
 `;
 
 export const Controller = styled.div`
@@ -32,4 +32,10 @@ export const Controller = styled.div`
 
 export const Carousel = styled.div`
   height: 24.6rem;
+  figcaption {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+    font-weight: 700;
+    padding: 1rem;
+  }
 `;

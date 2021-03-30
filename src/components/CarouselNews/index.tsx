@@ -18,6 +18,7 @@ interface CarouselProps {
   centerMode: boolean;
   useCSS: boolean;
   centerPadding: string;
+  arrows: boolean;
   infinite: boolean;
   slidesToShow: number;
   slidesToScroll: number;
@@ -51,6 +52,7 @@ export class CarouselNews extends Component {
       centerMode: true,
       useCSS: true,
       centerPadding: "3.75rem",
+      arrows: true,
       infinite: true,
       slidesToShow: 3.4,
       slidesToScroll: 8,
@@ -60,7 +62,7 @@ export class CarouselNews extends Component {
         {
           breakpoint: 768,
           settings: {
-            arrows: false,
+            arrows: true,
             centerMode: true,
             centerPadding: "40px",
             slidesToShow: 3,
@@ -69,7 +71,7 @@ export class CarouselNews extends Component {
         {
           breakpoint: 480,
           settings: {
-            arrows: false,
+            arrows: true,
             centerMode: true,
             centerPadding: "40px",
             slidesToShow: 1,
@@ -109,24 +111,17 @@ export class CarouselNews extends Component {
                 amarelas um vasto gramado verde à frente com uma fonte que 
                 possui uma estátua de um gavião atacando uma cobra"
               />
+              <figcaption>Melhores Museus com Entrada Franca</figcaption>
             </figure>
             <figure key={3}>
               <img src={imgTempo} alt="" />
+              <figcaption>
+                Veja a Previsão do Tempo para a sua cidade
+              </figcaption>
             </figure>
             <figure key={4}>
               <img src={imgOnibus} alt="" />
-            </figure>
-            <figure key={5}>
-              <img src={imgMoca} alt="" />
-            </figure>
-            <figure key={6}>
-              <img src={imgMuseu} alt="" />
-            </figure>
-            <figure key={7}>
-              <img src={imgTempo} alt="" />
-            </figure>
-            <figure key={8}>
-              <img src={imgOnibus} alt="" />
+              <figcaption>Passagem de Ônibus tem Reajustes</figcaption>
             </figure>
           </Slider>
         </Carousel>

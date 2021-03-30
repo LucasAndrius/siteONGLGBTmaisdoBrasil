@@ -23,3 +23,24 @@ export const Logos = styled.section`
     }
   }
 `;
+
+export const Label = styled.h4`
+  line-height: 2.4rem;
+  text-align: center;
+`;
+
+export const Link = styled.button`
+  text-align: center;
+  color: var(--newsletter-action);
+  font-size: 1.8rem;
+  font-weight: 900;
+  line-height: 2.4rem;
+  margin: 2rem 0 3rem 0;
+  background: none;
+  border: none;
+  transition: filter 0.2s;
+
+  &:hover {
+    filter: brightness(0.8);
+  }
+`;
