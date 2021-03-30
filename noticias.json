@@ -1,3 +1,23 @@
 {
-  "count": 0
+  
+  "cover": {
+    "url": "string",
+    "description": "string"
+  },
+  "medias": {
+    "url": "String",
+    "caption": "String",
+    "size": ["small", "medium", "large"]
+  },
+  "title": "String",
+  "abstract": "String",
+  "type": "string",
+  "author": "String",
+  "date": "String",
+  "text": {
+    "paragraph": "String",
+    "content": "String"
+  },
+  "tags": [],
+  "path": "string"
 }

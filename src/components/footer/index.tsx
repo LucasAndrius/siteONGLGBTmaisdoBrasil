@@ -48,43 +48,43 @@ export function FooterArea(props: FooterProps) {
             <span className="message">Em breve nosso Spotify</span>
           </LinkReset>
         </div>
+        <Nav>
+          <nav>
+            <ul>
+              <li>
+                <a className="red" href="/sobre">
+                  Sobre nós
+                </a>
+              </li>
+              <li>
+                <a className="orange" href="/doar">
+                  Doar
+                </a>
+              </li>
+              <li>
+                <a className="yellow" href="/voluntarie">
+                  Seja um voluntárie
+                </a>
+              </li>
+              <li>
+                <a className="green" href="/contato">
+                  Fale Conosco
+                </a>
+              </li>
+              <li>
+                <a className="blue" href="/aniversario">
+                  Aniversário Solidário
+                </a>
+              </li>
+              <li>
+                <a className="purple" href="/cadastro">
+                  Cadastra-se
+                </a>
+              </li>
+            </ul>
+          </nav>
+        </Nav>
       </footer>
-      <Nav>
-        <nav>
-          <ul>
-            <li>
-              <a className="red" href="/sobre">
-                Sobre nós
-              </a>
-            </li>
-            <li>
-              <a className="orange" href="/doar">
-                Doar
-              </a>
-            </li>
-            <li>
-              <a className="yellow" href="/voluntarie">
-                Seja um voluntárie
-              </a>
-            </li>
-            <li>
-              <a className="green" href="/contato">
-                Fale Conosco
-              </a>
-            </li>
-            <li>
-              <a className="blue" href="/aniversario">
-                Aniversário Solidário
-              </a>
-            </li>
-            <li>
-              <a className="purple" href="/cadastro">
-                Cadastra-se
-              </a>
-            </li>
-          </ul>
-        </nav>
-      </Nav>
     </Footer>
   );
 }

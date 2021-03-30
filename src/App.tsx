@@ -1,4 +1,5 @@
 import { BrowserRouter as Switch, Route } from "react-router-dom";
+import { News } from "./components/News";
 
 import { Agenda } from "./pages/Agenda";
 import { Aniversario } from "./pages/Aniversario";
@@ -31,6 +32,7 @@ export function App() {
         <Route path="/contato" component={Contato} />
         <Route path="/aniversario" component={Aniversario} />
         <Route path="/cadastro" component={Cadastro} />
+        <Route path="/noticia" component={News} />
       </Switch>
       <GlobalStyle />
     </>
