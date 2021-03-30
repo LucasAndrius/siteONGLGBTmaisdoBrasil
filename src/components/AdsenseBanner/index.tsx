@@ -1,5 +1,11 @@
 import { Container } from "./styles";
 
+import adsense from "../../assets/adsense-banner.jpg";
+
 export function AdsenseBanner() {
-  return <Container>Something</Container>;
+  return(
+    <Container>
+      <img src={adsense} alt=""/>
+    </Container>
+  );
 }
