@@ -4,8 +4,19 @@ import tv from "../../assets/logo-tv.svg";
 import mktplace from "../../assets/logo-marketplace.svg";
 
 import { Container, Label, Link, Logos } from "./styles";
+import { Modal } from "../Modal/Modal"
+import {useState} from "react"
+
+
+
 
 export function SectionNewsletter() {
+  const[isModalVisible, setIsModalVisible] = useState(false)
+
+  function setModal(){
+      setIsModalVisible(true)
+  }
+
   return (
     <Container>
       <Logos>
@@ -23,7 +34,8 @@ export function SectionNewsletter() {
         </a>
       </Logos>
       <Label>Deseja recebar mais notícias sobre a comunidade LGBT+ ?</Label>
-      <Link>Assine a nossa newsletter</Link>
+      <Link onClick={setModal}>Assine a nossa newsletter</Link>
+      {isModalVisible ? <Modal onClose={ () => setIsModalVisible(false) }/> : null}
     </Container>
   );
 }
