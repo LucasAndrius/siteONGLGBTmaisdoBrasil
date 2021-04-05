@@ -5,9 +5,19 @@
 <h1 align="center">Ong LGBT+ | Grupo CPB</h1>
 
 <p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=15C3D6&labelColor=000000">
-  <img alt="Language" src="https://img.shields.io/static/v1?label=language&message=Typescript&color=15C3D6&labelColor=000000">
-</p>
+  <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+
+  <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+
+  <img alt="Tamanho do repositório" src="https://img.shields.io/github/repo-size/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+
+  <img alt="Licença" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
+
+  <img alt="Github issues" src="https://img.shields.io/github/issuesGrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+
+  <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+
+  <img alt="Github stars" src="https://img.shields.io/github/stars/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
 
 ## :rocket: Technologies ##
 
@@ -23,7 +33,7 @@
 
 ```bash
 # Clone this project
-$ git clone https://github.com/GrupoCPB/siteonglgbt
+$ git clone https://github.com/GrupoCPB/siteonglgbtmaisdobrasil
 
 # Access
 $ cd siteonglgbt
