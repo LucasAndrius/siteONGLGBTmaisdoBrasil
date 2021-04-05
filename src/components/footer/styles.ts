@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Footer = styled.footer`
+  width: 100%;
   height: 14.12rem;
 
   text-align: center;
@@ -33,8 +34,6 @@ export const Footer = styled.footer`
   }
 
   footer {
-    height: 100%;
-
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -54,6 +53,7 @@ export const Footer = styled.footer`
 `;
 
 export const Nav = styled.nav`
+  width: 100%;
   height: 5.38rem;
   background: #fff;
   box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);

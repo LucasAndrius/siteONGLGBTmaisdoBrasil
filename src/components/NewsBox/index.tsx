@@ -5,9 +5,9 @@ import { Container } from "./styles";
 interface NewsBoxProps {
   pageName: string;
 }
-
 export function NewsBox(props: NewsBoxProps) {
   const { newsInformations } = useContext(NewsContext);
+
   return (
     <Container className={props.pageName}>
       {newsInformations.map((news) => (

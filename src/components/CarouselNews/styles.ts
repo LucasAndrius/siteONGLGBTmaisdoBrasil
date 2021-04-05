@@ -17,7 +17,7 @@ export const Controller = styled.div`
   align-items: center;
   justify-content: space-between;
   padding: 0 9.4rem;
-  margin-bottom: 2rem;
+  margin-bottom: 4rem;
 
   button {
     background: none;
@@ -31,6 +31,7 @@ export const Controller = styled.div`
 `;
 
 export const Carousel = styled.div`
+  width: 100%;
   height: 24.6rem;
   figcaption {
     font-size: 1.5rem;

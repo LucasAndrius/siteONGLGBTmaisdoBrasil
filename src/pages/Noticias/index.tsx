@@ -18,8 +18,8 @@ export function Noticias() {
       <AdsenseBanner />
       <CarouselNews />
       <NewsBox pageName="noticias" />
-      <SectionNewsletter />
-      <FooterArea pageName="noticias" />
+      <SectionNewsletter/>
+      <FooterArea pageName="noticias"/>
     </Container>
   );
 }
