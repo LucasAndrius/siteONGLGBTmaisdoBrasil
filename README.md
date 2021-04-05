@@ -13,7 +13,7 @@
 
   <img alt="Licença" src="https://img.shields.io/github/license/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issuesGrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
+  <img alt="Github issues" src="https://img.shields.io/github/issues/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
 
   <img alt="Github forks" src="https://img.shields.io/github/forks/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8" />
 
