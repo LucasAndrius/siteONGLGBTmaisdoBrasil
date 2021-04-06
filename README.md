@@ -49,6 +49,22 @@ $ yarn start
 # The server will initialize in the <http://localhost:3000>
 ```
 
+## Project Structure
+
+```
+src/
+ |--- assets/       # Imagens
+ |--- components/   # Componentes
+ |--- configs/      # Variáveis de configurações
+ |--- contexts/     # Contextos
+ |--- pages/        # Páginas
+ |--- services/     # Configuração de serviços utilizados
+ |--- styles/       # Estilos globais
+ |--- App.js        # Arquivo com configurações principais do App
+ |--- index.js      # Ponto de entrada para execução do nosso App
+ |--- routes.js     # Arquivo contendo as principais rotas do App
+```
+
 ## Logbook
 
 ### Criando a aplicação com create-react-app
