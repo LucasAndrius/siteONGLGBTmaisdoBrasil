@@ -2,9 +2,11 @@
   &#xa0;
 </div>
 
-<h1 align="center">Ong LGBT+ | Grupo CPB</h1>
+<img alt="ONG LGBT+ do Brasil" src="./public/logo-icone.png" width="100px" align="center">
 
-<p align="center">
+<h1>Ong LGBT+ do Brasil | Grupo CPB</h1>
+
+<p>
   <img alt="Principal linguagem do projeto" src="https://img.shields.io/github/languages/top/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
 
   <img alt="Quantidade de linguagens utilizadas" src="https://img.shields.io/github/languages/count/GrupoCPB/siteonglgbtmaisdobrasil?color=56BEB8">
