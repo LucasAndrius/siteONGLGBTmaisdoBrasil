@@ -4,7 +4,7 @@ import tv from "../../assets/logo-tv.svg";
 import mktplace from "../../assets/logo-marketplace.svg";
 
 import { Container, Label, Link, Logos } from "./styles";
-import { Modal } from "../Modal/Modal"
+import { Modal } from "../Modal/index"
 import {useState} from "react"
 
 

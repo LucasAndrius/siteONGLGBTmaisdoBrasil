@@ -1,11 +1,12 @@
-import "../Modal/modal.css";
+import { Container, Form } from "./styles"
 
 export function Modal( {onClose= () => {}} ){
 
     return(
-        <section className="modal">
-            <div className="form">
-                <label className="lb">Nome</ label>
+        // <section className="modal">
+        <Container>
+            <Form>
+            <label className="lb">Nome</ label>
                 <input type="text" id="name" name="name" required></input>
                 <label className="lb">Telefone(DDD)</ label>
                 <input type="tel" id="tel" name="telefone" required></input>
@@ -18,9 +19,11 @@ export function Modal( {onClose= () => {}} ){
                     <button className="btn-send">Cadastrar</button>
                     <button onClick={onClose}>Fechar</button>
                 </div>
+
+            </Form>
+        </Container>
             
-            </div>
-        </section>
+        // </section>
 
         
         
