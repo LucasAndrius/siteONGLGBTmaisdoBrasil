@@ -8,5 +8,4 @@ img{
     margin-top:6.25rem;
     margin-bottom:6.25rem;
 }
-
 `;

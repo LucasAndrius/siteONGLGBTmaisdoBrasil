@@ -52,7 +52,6 @@ export class CarouselNews extends Component {
       centerMode: true,
       useCSS: true,
       centerPadding: "3.75rem",
-      arrows: true,
       infinite: true,
       slidesToShow: 3.4,
       slidesToScroll: 8,
@@ -63,7 +62,6 @@ export class CarouselNews extends Component {
           breakpoint: 768,
           settings: {
             arrows: true,
-            centerMode: true,
             centerPadding: "40px",
             slidesToShow: 3,
           },
@@ -72,7 +70,6 @@ export class CarouselNews extends Component {
           breakpoint: 480,
           settings: {
             arrows: true,
-            centerMode: true,
             centerPadding: "40px",
             slidesToShow: 1,
           },

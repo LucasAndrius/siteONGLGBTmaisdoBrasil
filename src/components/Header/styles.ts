@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 export const Container = styled.header`
   z-index: 100;
+  width: 100%;
   height: 5.94rem;
 `;
 

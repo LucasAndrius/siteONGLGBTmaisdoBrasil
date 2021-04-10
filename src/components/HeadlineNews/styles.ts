@@ -1,6 +1,7 @@
 import styled from "styled-components";
 
 export const Container = styled.main`
+
 padding-top:4rem;
 padding-bottom:8rem;
 
@@ -75,5 +76,5 @@ margin:auto;
         }
     }
 
-    
+   
 `;
