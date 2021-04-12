@@ -91,35 +91,43 @@ export class CarouselNews extends Component {
         </Controller>
         <Carousel>
           <Slider ref={(c) => (this.slider = c)} {...settings}>
-            <figure key={1}>
-              <img
-                src={imgMoca}
-                alt="Mulher negra de cabelos presos sorridente fazendo sinal 
+            <a href="/">
+              <figure key={1}>
+                <img
+                  src={imgMoca}
+                  alt="Mulher negra de cabelos presos sorridente fazendo sinal 
                 de positivo com o polegar após passar nos exames retrato 
                 de mulher negra feliz em tshirt cinza se divertindo no 
                 escritorio enquanto seus colegas estão trabalhando no projeto"
-              />
-              <figcaption>Crédito Facilitado pelo Governo Federal</figcaption>
-            </figure>
-            <figure key={2}>
-              <img
-                src={imgMuseu}
-                alt="Imagem da fachada de um museu que possui paredes 
+                />
+                <figcaption>Crédito Facilitado pelo Governo Federal</figcaption>
+              </figure>
+            </a>
+            <a href="/">
+              <figure key={2}>
+                <img
+                  src={imgMuseu}
+                  alt="Imagem da fachada de um museu que possui paredes 
                 amarelas um vasto gramado verde à frente com uma fonte que 
                 possui uma estátua de um gavião atacando uma cobra"
-              />
-              <figcaption>Melhores Museus com Entrada Franca</figcaption>
-            </figure>
-            <figure key={3}>
-              <img src={imgTempo} alt="" />
-              <figcaption>
-                Veja a Previsão do Tempo para a sua cidade
-              </figcaption>
-            </figure>
-            <figure key={4}>
-              <img src={imgOnibus} alt="" />
-              <figcaption>Passagem de Ônibus tem Reajustes</figcaption>
-            </figure>
+                />
+                <figcaption>Melhores Museus com Entrada Franca</figcaption>
+              </figure>
+            </a>
+            <a href="/">
+              <figure key={3}>
+                <img src={imgTempo} alt="" />
+                <figcaption>
+                  Veja a Previsão do Tempo para a sua cidade
+                </figcaption>
+              </figure>
+            </a>
+            <a href="/">
+              <figure key={4}>
+                <img src={imgOnibus} alt="" />
+                <figcaption>Passagem de Ônibus tem Reajustes</figcaption>
+              </figure>
+            </a>
           </Slider>
         </Carousel>
       </Container>
