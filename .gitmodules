@@ -1,3 +1,7 @@
 [submodule "siteONGLGBTmaisdoBrasil"]
 	path = siteONGLGBTmaisdoBrasil
 	url = https://github.com/GrupoCPB/siteONGLGBTmaisdoBrasil
+
+[submodule "siteonglgbtmaisdobrasil"]
+	path = siteonglgbtmaisdobrasil
+	url = https://github.com/GrupoCPB/siteONGLGBTmaisdoBrasil
