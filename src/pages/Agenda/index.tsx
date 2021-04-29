@@ -4,7 +4,6 @@ import { BannerNewsletter } from "../../components/BannerNewsletter";
 import { Container } from "./styles";
 
 import constructionImg from "../../assets/construcao.png";
-import { FooterArea } from "../../components/Footer";
 
 export function Agenda() {
   return (
