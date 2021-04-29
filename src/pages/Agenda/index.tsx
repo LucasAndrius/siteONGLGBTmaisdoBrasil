@@ -17,7 +17,6 @@ export function Agenda() {
         className="construction"
       />
       <h2>Página em Construção</h2>
-      <FooterArea pageName="agenda" />
     </Container>
   );
 }
