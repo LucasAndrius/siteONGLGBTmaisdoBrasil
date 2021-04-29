@@ -5,9 +5,9 @@ import { AdsenseBanner } from "../../components/AdsenseBanner";
 import { CarouselNews } from "../../components/CarouselNews";
 import { NewsBox } from "../../components/NewsBox";
 import { SectionNewsletter } from "../../components/SectionNewsletter";
-import { FooterArea } from "../../components/Footer";
 
 import { Container } from "./styles";
+import { FooterArea } from "../../components/Footer";
 
 export function Noticias() {
   return (
